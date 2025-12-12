@@ -54,7 +54,7 @@ public class VaagaiUpdateProduct
         }
         List<Category> category = CommonUtility.loadCategoryInformation();
         for (Category cat : category) {
-            System.out.println(cat.mycat());
+            System.out.println(cat.toString());
         }
         CommonUtility.fetchAndPrintProductDetails(6, 1);
     }

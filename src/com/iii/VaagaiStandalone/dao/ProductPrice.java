@@ -1,22 +1,18 @@
 package com.iii.VaagaiStandalone.dao;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
 public class ProductPrice
 {
     private double productActualPrice;
     private double productDiscountPrice;
 
-    public ProductPrice(double productActualPrice, double productDiscountPrice)
-    {
-        this.productActualPrice = productActualPrice;
-        this.productDiscountPrice = productDiscountPrice;
-    }
-
-    public double prodActualprice()
-    {
-        return productActualPrice;
-    }
-    public double prodDiscountprice()
-    {
-        return productDiscountPrice;
-    }
+   
 }

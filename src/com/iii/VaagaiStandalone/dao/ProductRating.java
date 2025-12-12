@@ -1,16 +1,17 @@
 package com.iii.VaagaiStandalone.dao;
 
-public class ProductRating
-{
-    private double productRating;
+import java.util.List;
 
-    public ProductRating(double productRating)
-    {
-        this.productRating = productRating;
-    }
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-    public double prodrating()
-    {
-        return productRating;
-    }
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+public class ProductRating {
+	private double productRating;
+
 }

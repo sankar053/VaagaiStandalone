@@ -57,7 +57,7 @@ public class VaagaiAddProduct {
 		List<Category> allCategories = CommonUtility.loadCategoryInformation();
 		if (allCategories != null) {
 			for (Category cat : allCategories) {
-				System.out.println("  > " + cat.mycat());
+				System.out.println("  > " + cat.toString());
 			}
 		}
 

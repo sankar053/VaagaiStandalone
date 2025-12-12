@@ -7,16 +7,17 @@ import java.util.List;
 import com.iii.VaagaiStandalone.config.DatabaseConfig;
 import com.iii.VaagaiStandalone.dto.CategoryDto;
 import com.iii.VaagaiStandalone.service.ICategory;
+import com.iii.VaagaiStandalone.utils.QueryConstant;
 
 public class CategoryService implements ICategory {
 
 	@Override
 	public boolean create(CategoryDto category) {
-		String query = "INSERT INTO Category(categoryID, categoryName) VALUES (?, ?)";
+	
 		try {
 
 			try (Connection connection = DatabaseConfig.getDBConnection();
-					PreparedStatement statement = connection.prepareStatement(query)) {
+					PreparedStatement statement = connection.prepareStatement(QueryConstant.CATEGORY_INSERT)) {
 				statement.setInt(1, category.getCategoryId());
 				statement.setString(2, category.getCategoryName());
 				// executeUpdate() -> DELETE/INSERT/UPDATE
