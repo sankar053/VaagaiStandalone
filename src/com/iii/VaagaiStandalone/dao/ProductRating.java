@@ -1,4 +1,4 @@
-package com.iii.VaagaiStandalone01.dao;
+package com.iii.VaagaiStandalone.dao;
 
 public class ProductRating
 {

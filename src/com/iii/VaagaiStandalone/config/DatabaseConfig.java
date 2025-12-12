@@ -1,4 +1,4 @@
-package com.iii.VaagaiStandalone01.config;
+package com.iii.VaagaiStandalone.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

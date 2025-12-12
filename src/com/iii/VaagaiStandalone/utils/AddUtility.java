@@ -1,9 +1,9 @@
-package com.iii.VaagaiStandalone01.utils;
+package com.iii.VaagaiStandalone.utils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import com.iii.VaagaiStandalone01.config.DatabaseConfig;
+import com.iii.VaagaiStandalone.config.DatabaseConfig;
 
 public class AddUtility
 {

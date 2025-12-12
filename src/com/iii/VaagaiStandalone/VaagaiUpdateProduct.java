@@ -1,10 +1,10 @@
-package com.iii.VaagaiStandalone01;
+package com.iii.VaagaiStandalone;
 
 import java.util.List;
 
-import com.iii.VaagaiStandalone01.dao.Category;
-import com.iii.VaagaiStandalone01.utils.CommonUtility;
-import com.iii.VaagaiStandalone01.utils.UpdateUtility;
+import com.iii.VaagaiStandalone.dao.Category;
+import com.iii.VaagaiStandalone.utils.CommonUtility;
+import com.iii.VaagaiStandalone.utils.UpdateUtility;
 
 public class VaagaiUpdateProduct
 {

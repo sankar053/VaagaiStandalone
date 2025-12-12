@@ -1,11 +1,11 @@
-package com.iii.VaagaiStandalone01;
+package com.iii.VaagaiStandalone;
 
 import java.sql.SQLException;
 import java.util.List;
 
-import com.iii.VaagaiStandalone01.dao.Category;
-import com.iii.VaagaiStandalone01.utils.CommonUtility;
-import com.iii.VaagaiStandalone01.utils.DeleteUtility;
+import com.iii.VaagaiStandalone.dao.Category;
+import com.iii.VaagaiStandalone.utils.CommonUtility;
+import com.iii.VaagaiStandalone.utils.DeleteUtility;
 
 public class VaagaiDeleteProduct
 {

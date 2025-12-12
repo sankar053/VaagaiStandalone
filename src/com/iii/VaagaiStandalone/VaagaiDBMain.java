@@ -1,11 +1,11 @@
-package com.iii.VaagaiStandalone01;
+package com.iii.VaagaiStandalone;
 
 import java.util.List;
 import java.util.Scanner;
 
-import com.iii.VaagaiStandalone01.dao.Category;
-import com.iii.VaagaiStandalone01.dao.ProductDetails;
-import com.iii.VaagaiStandalone01.utils.CommonUtility;
+import com.iii.VaagaiStandalone.dao.Category;
+import com.iii.VaagaiStandalone.dao.ProductDetails;
+import com.iii.VaagaiStandalone.utils.CommonUtility;
 
 public class VaagaiDBMain
 {

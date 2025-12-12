@@ -1,4 +1,4 @@
-package com.iii.VaagaiStandalone01.utils;
+package com.iii.VaagaiStandalone.utils;
 
 
 
@@ -9,11 +9,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.iii.VaagaiStandalone01.config.DatabaseConfig;
-import com.iii.VaagaiStandalone01.dao.Category;
-import com.iii.VaagaiStandalone01.dao.ProductDetails;
-import com.iii.VaagaiStandalone01.dao.ProductPrice;
-import com.iii.VaagaiStandalone01.dao.ProductRating;
+import com.iii.VaagaiStandalone.config.DatabaseConfig;
+import com.iii.VaagaiStandalone.dao.Category;
+import com.iii.VaagaiStandalone.dao.ProductDetails;
+import com.iii.VaagaiStandalone.dao.ProductPrice;
+import com.iii.VaagaiStandalone.dao.ProductRating;
 
 public class CommonUtility
 {
