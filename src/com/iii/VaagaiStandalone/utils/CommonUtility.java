@@ -236,7 +236,7 @@ public class CommonUtility
                                     resultSet.getString("productPackSize"),
                                     resultSet.getString("productAttribute"),
                                     productActualPrice,productDiscountPrice,rating);  // productID
-                            System.out.println(details.productdetails());
+                            System.out.println(details.toString());
                             return true;
                         } else {
                         // Product is NOT AVAILABLE or does not belong to the category

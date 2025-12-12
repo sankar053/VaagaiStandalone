@@ -15,7 +15,7 @@ public class VaagaiDBMain
         System.out.println("Category Details...");
         List<Category> category = CommonUtility.loadCategoryInformation();
         for (Category cat : category) {
-            System.out.println("  > " + cat.mycat());
+            System.out.println("  > " + cat.toString());
         }
         // Category ID Input from User
         Scanner scanner = new Scanner(System.in);
@@ -35,7 +35,7 @@ public class VaagaiDBMain
         List<ProductDetails> product = CommonUtility.loadProductInformation(categoryId);
         System.out.println("Product Details...");
         for(ProductDetails prod : product) {
-            System.out.println(prod.myproduct());
+            System.out.println(prod.toString());
         }
         // Product ID from user
         System.out.print("Enter the Product ID: ");

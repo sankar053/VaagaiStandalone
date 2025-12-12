@@ -1,6 +1,4 @@
-package com.iii.VaagaiStandalone.dao;
-
-import java.util.List;
+package com.iii.VaagaiStandalone.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,9 +7,10 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@ToString
 @AllArgsConstructor
-public class ProductRating {
-	private double productRating;
+@ToString
+public class CategoryDto {
+	private int categoryId;
+	private String categoryName;
 
 }

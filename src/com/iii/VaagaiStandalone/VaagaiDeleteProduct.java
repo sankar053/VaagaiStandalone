@@ -24,7 +24,7 @@ public class VaagaiDeleteProduct
         }
         List<Category> category = CommonUtility.loadCategoryInformation();
         for(Category cat : category) {
-            System.out.println(cat.mycat());
+            System.out.println(cat.toString());
         }
 
         int productIdToDelete = 5836;

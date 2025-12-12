@@ -9,25 +9,19 @@ public class AddUtility
 {
     
 
-    public static boolean addCategory(int categoryID, String categoryName)
-    {
-        String query = "INSERT INTO Category(categoryID, categoryName) VALUES (?, ?)";
-        try
-        {
-     
-            try (Connection connection = DatabaseConfig.getDBConnection();
-                 PreparedStatement statement = connection.prepareStatement(query))
-                 {
-                    statement.setInt(1, categoryID);
-                    statement.setString(2, categoryName);
-                     // executeUpdate() -> DELETE/INSERT/UPDATE
-                    return statement.executeUpdate() > 0;  //executeUpdate() returns integer(0 or 1)
-                 }
-        } catch (Exception e) {
-            System.err.println("Error adding category : " + categoryID);
-            return false;
-        }
-    }
+	/*
+	 * public static boolean addCategory(int categoryID, String categoryName) {
+	 * String query =
+	 * "INSERT INTO Category(categoryID, categoryName) VALUES (?, ?)"; try {
+	 * 
+	 * try (Connection connection = DatabaseConfig.getDBConnection();
+	 * PreparedStatement statement = connection.prepareStatement(query)) {
+	 * statement.setInt(1, categoryID); statement.setString(2, categoryName); //
+	 * executeUpdate() -> DELETE/INSERT/UPDATE return statement.executeUpdate() > 0;
+	 * //executeUpdate() returns integer(0 or 1) } } catch (Exception e) {
+	 * System.err.println("Error adding category : " + categoryID); return false; }
+	 * }
+	 */
 
     public static boolean addProduct(int productID, int categoryID, String productName, String productImage, String productPackSize,String productAttribute, double actualPrice,double discountPrice, double rating) {
         // Insert into ProductDetails
