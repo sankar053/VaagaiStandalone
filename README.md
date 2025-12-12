@@ -1,0 +1,1 @@
+Stanalone Java sample project
