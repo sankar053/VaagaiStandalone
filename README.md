@@ -1,1 +1,1 @@
-Stanalone Java sample project
+Stanalone Java  project
