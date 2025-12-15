@@ -13,7 +13,7 @@ public class VaagaiDBMain
     {
         System.out.println("Loaded Category and Product details...");
         System.out.println("Category Details...");
-        List<Category> category = CommonUtility.loadCategoryInformation();
+        List<CategoryDto> category = CommonUtility.loadCategoryInformation();
         for (Category cat : category) {
             System.out.println("  > " + cat.toString());
         }

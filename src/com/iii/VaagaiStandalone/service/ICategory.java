@@ -1,15 +1,9 @@
-/**
- * 
- */
 package com.iii.VaagaiStandalone.service;
 
 import java.util.List;
 
 import com.iii.VaagaiStandalone.dto.CategoryDto;
 
-/**
- * 
- */
 public interface ICategory {
 
 	public boolean create(CategoryDto category);
