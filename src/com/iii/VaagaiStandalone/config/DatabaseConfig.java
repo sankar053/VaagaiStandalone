@@ -5,10 +5,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConfig {
-	
-	public static String url = "jdbc:mysql://localhost:3306/vaagai";
+
+    public static String url = "jdbc:mysql://localhost:3306/vaagai";
     public static String username = "root";
-    public static String password = "password";
+    public static String password = "dbms";
     public static String jdbcDriver = "com.mysql.cj.jdbc.Driver";
     
     public static Connection getDBConnection() throws ClassNotFoundException, SQLException {

@@ -7,10 +7,24 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @ToString
 public class CategoryDto {
-	private int categoryId;
+	private int categoryID;
 	private String categoryName;
 
+    // Constructor to getAll(), create(), update()
+    public CategoryDto(int categoryID, String categoryName) {
+        this.categoryID = categoryID;
+        this.categoryName = categoryName;
+    }
+
+    // Constructor to delete()
+    public CategoryDto(int categoryID) {
+        this.categoryID = categoryID;
+    }
+
+    public String mycat()
+    {
+        return "Category [ID: " + categoryID + ", Name: " + categoryName  + "]";
+    }
 }
